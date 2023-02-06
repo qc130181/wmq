@@ -1,0 +1,4 @@
+查看hdfs下的文件 ：hadoop fs -ls /
+hdfs dfs -mkdir -p /user/root
+hdfs dfs -D dfs.blocksize=1048576 -put test.txt
+
